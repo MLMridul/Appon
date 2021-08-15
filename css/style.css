@@ -188,8 +188,12 @@ font-family: 'Raleway', sans-serif; */
     line-height: 80px;
     color: #fff;
     margin-right: 38px;
-    transition: all linear .2s;
     position: relative;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .menu-bg .menu .menu-list .menu-bar ul li a::after {
@@ -200,8 +204,12 @@ font-family: 'Raleway', sans-serif; */
     width: 15px;
     height: 2px;
     background: #744fa0;
-    transition: all linear .2s;
     display: inline-block;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 
@@ -230,9 +238,13 @@ font-family: 'Raleway', sans-serif; */
     color: #fff;
     background: #744fa0;
     border-radius: 5px;
-    transition: all linear .2s;
     box-sizing: border-box;
     border: 1px solid #744fa0;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .menu-bg .menu .menu-list .free-trial a:hover {
@@ -333,9 +345,17 @@ font-family: 'Raleway', sans-serif; */
     color: #353535;
     text-align: left;
     position: relative;
-    border-radius: 5px;
     margin-left: 5px;
+    border-radius: 5px;
     transition: all linear .2s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .banner-bg .banner .banner-button a:hover {
@@ -497,6 +517,10 @@ font-family: 'Raleway', sans-serif; */
     background: #353535;
     top: 74px;
     transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 
@@ -511,9 +535,13 @@ font-family: 'Raleway', sans-serif; */
 
 .features-item .media a {
     color: #353535;
-    transition: all linear .2s;
     position: relative;
     display: block;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 
@@ -630,10 +658,18 @@ font-family: 'Raleway', sans-serif; */
     display: inline-block;
     margin-right: 5px;
     box-sizing: border-box;
-    border-radius: 50%;
     cursor: pointer;
     position: relative;
+    border-radius: 50%;
     transition: all linear .2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .screenshot-bg .screenshot .screenshot-circle ul li::after {
@@ -643,10 +679,22 @@ font-family: 'Raleway', sans-serif; */
     left: 50%;
     width: 6px;
     height: 6px;
+    background: transparent;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    background: transparent;
     transition: all linear .2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .screenshot-bg .screenshot .screenshot-circle ul li:nth-child(3):after {
@@ -710,12 +758,20 @@ font-family: 'Raleway', sans-serif; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .video-bg .video-play .video-play-icon i {
     color: #fff;
     cursor: pointer;
     transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .video-bg .video-play .video-play-icon i:hover {
@@ -764,13 +820,25 @@ font-family: 'Raleway', sans-serif; */
     float: left;
     text-align: center;
     border: 1px solid #f1f1f1;
-    border-radius: 20px;
     box-sizing: border-box;
+    border-radius: 20px;
     transition: all linear .2s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .pricing-bg .pricing .pricing-plan .pricing-item:hover {
     transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 .pricing-item .price-heading {
@@ -780,6 +848,10 @@ font-family: 'Raleway', sans-serif; */
     border-top-left-radius: 20px;
     box-sizing: border-box;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
 .pricing-bg .pricing .pricing-plan .pricing-item:hover .price-heading {
@@ -808,6 +880,10 @@ font-family: 'Raleway', sans-serif; */
     height: 120px;
     margin: 20px auto;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 
@@ -857,6 +933,10 @@ font-family: 'Raleway', sans-serif; */
     left: 50%;
     bottom: -10px;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .pricing-item .price-text .sign-up-button a {
@@ -870,6 +950,14 @@ font-family: 'Raleway', sans-serif; */
     border: 1px solid #353535;
     border-radius: 5px;
     transition: all linear .2s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .pricing-item .price-text .sign-up-button a:hover {
@@ -915,8 +1003,12 @@ font-family: 'Raleway', sans-serif; */
     height: auto;
     position: relative;
     margin-top: 80px;
-    transition: all linear .2s;
     float: left;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 
@@ -943,6 +1035,10 @@ font-family: 'Raleway', sans-serif; */
     top: 100%;
     left: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
 
@@ -958,8 +1054,12 @@ font-family: 'Raleway', sans-serif; */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 10;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .team .team-list .member .social-account ul {}
@@ -968,12 +1068,20 @@ font-family: 'Raleway', sans-serif; */
     width: 50px;
     height: 50px;
     background: #f1f1f1;
-    border-radius: 50%;
     text-align: center;
     float: left;
     margin-right: 10px;
     opacity: 0;
+    border-radius: 50%;
     transition: all linear .4s;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
 .team .team-list .member .social-account ul li a {
@@ -983,6 +1091,14 @@ font-family: 'Raleway', sans-serif; */
     display: block;
     border-radius: 50%;
     transition: all linear .2s;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .team .team-list .member .member-image:hover .social-account ul li {
@@ -1007,6 +1123,10 @@ font-family: 'Raleway', sans-serif; */
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .team .team-list .member:hover .member-details {
@@ -1093,11 +1213,15 @@ font-family: 'Raleway', sans-serif; */
     width: 800px;
     height: 220px;
     margin: 0 auto;
-    border-radius: 15px;
     background: #fff;
     color: #353535;
     text-align: center;
     position: relative;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 
@@ -1105,12 +1229,20 @@ font-family: 'Raleway', sans-serif; */
     content: "";
     width: 38px;
     height: 38px;
-    border-radius: 5px;
     position: absolute;
     bottom: -17px;
-    transform: rotate(45deg);
     left: 381px;
     background: #fff;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 .feedback .feedback-bg .feedback-content .feedback-text p {
@@ -1141,6 +1273,10 @@ font-family: 'Raleway', sans-serif; */
 .feedback .feedback-bg .feedback-content .feedback-text ul li a {
     color: #555;
     transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-text ul li a:hover {
@@ -1193,13 +1329,21 @@ font-family: 'Raleway', sans-serif; */
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-image .image li a img {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
     z-index: 1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-image .image li a::after {
@@ -1213,6 +1357,14 @@ font-family: 'Raleway', sans-serif; */
     z-index: 10;
     border-radius: 50%;
     transition: all linear .2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-image .image li a:hover:after {
@@ -1233,10 +1385,18 @@ font-family: 'Raleway', sans-serif; */
     display: inline-block;
     margin-right: 5px;
     box-sizing: border-box;
-    border-radius: 50%;
     cursor: pointer;
     position: relative;
+    border-radius: 50%;
     transition: all linear .2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-image .feedback-circle ul li::after {
@@ -1246,10 +1406,22 @@ font-family: 'Raleway', sans-serif; */
     left: 50%;
     width: 6px;
     height: 6px;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
     background: transparent;
+    border-radius: 50%;
     transition: all linear .2s;
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-image .feedback-circle ul li:nth-child(2):after {
@@ -1312,8 +1484,12 @@ font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    border-radius: 5px;
     border: 1px solid #353535;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .form .form-messege {
@@ -1331,9 +1507,13 @@ font-family: 'Raleway', sans-serif; */
     font-weight: 400;
     box-sizing: border-box;
     padding: 10px;
-    border-radius: 5px;
     border: 1px solid #353535;
     resize: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .form .form-button {
@@ -1351,11 +1531,19 @@ font-family: 'Raleway', sans-serif; */
     font-weight: 700;
     background: #744fa0;
     color: #fff;
-    border: 1px solid #744fa0;
     border-radius: 5px;
     cursor: pointer;
     box-sizing: border-box;
+    border: 1px solid #744fa0;
     transition: all linear .2s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .form .form-button button:hover {
@@ -1406,11 +1594,19 @@ font-family: 'Raleway', sans-serif; */
     width: 50px;
     height: 50px;
     background: #f1f1f1;
-    border-radius: 50%;
     text-align: center;
     float: left;
     margin-right: 10px;
+    border-radius: 50%;
     transition: all linear .4s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
 .footer-bg .footer .footer-icon ul li:last-child {
@@ -1424,6 +1620,14 @@ font-family: 'Raleway', sans-serif; */
     display: block;
     border-radius: 50%;
     transition: all linear .2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .footer-bg .footer .footer-icon ul li a:hover {
@@ -1447,6 +1651,10 @@ font-family: 'Raleway', sans-serif; */
 .footer-bg .footer .footer-text p a {
     color: #744fa0;
     transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
 
 .footer-bg .footer .footer-text p a:hover {
