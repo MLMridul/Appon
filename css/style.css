@@ -960,7 +960,7 @@ font-family: 'Raleway', sans-serif; */
     -o-transition: all linear .2s;
 }
 
-.pricing-item .price-text .sign-up-button a:hover {
+.pricing-item:hover .price-text .sign-up-button a {
     color: #fff;
     background: #744fa0;
     border-color: #744fa0;
@@ -1042,7 +1042,7 @@ font-family: 'Raleway', sans-serif; */
 }
 
 
-.team .team-list .member .member-image:hover:after {
+.team .team-list .member:hover .member-image:after {
     top: 0;
 }
 
@@ -1062,7 +1062,28 @@ font-family: 'Raleway', sans-serif; */
     -o-transform: translate(-50%, -50%);
 }
 
-.team .team-list .member .social-account ul {}
+.team .team-list .member .social-account ul {
+    transform: rotate(0deg);
+    transition: all linear .8s;
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transition: all linear .8s;
+    -moz-transition: all linear .8s;
+    -ms-transition: all linear .8s;
+    -o-transition: all linear .8s;
+}
+
+.team .team-list .member:hover .social-account ul {
+    transform: rotate(360deg);
+    opacity: 1;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
 
 .team .team-list .member .member-image .social-account ul li {
     width: 50px;
@@ -1071,13 +1092,12 @@ font-family: 'Raleway', sans-serif; */
     text-align: center;
     float: left;
     margin-right: 10px;
-    opacity: 0;
     border-radius: 50%;
     transition: all linear .4s;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     -webkit-transition: all linear .4s;
     -moz-transition: all linear .4s;
     -ms-transition: all linear .4s;
@@ -1091,17 +1111,17 @@ font-family: 'Raleway', sans-serif; */
     display: block;
     border-radius: 50%;
     transition: all linear .2s;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     -webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
 }
 
-.team .team-list .member .member-image:hover .social-account ul li {
+.team .team-list .member:hover .member-image .social-account ul li {
     opacity: 1;
 }
 
