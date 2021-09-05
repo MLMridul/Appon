@@ -39,3 +39,60 @@ $('.scrolltop').click(function () {
         scrollTop: '0',
     }, 1500)
 })
+
+
+// Screenshot SLider
+
+$('.screenshot-image').slick({
+    arrows: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+});
+
+// Team Slider
+
+$('.team-list').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2500,
+});
+
+// Feedback image SLider
+
+
+$('.image').slick({
+    arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    centerMode: true,
+    centerPadding: '0px',
+    asNavFor: '.feedback-text',
+    focusOnSelect: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+});
+
+// Feedback text SLider
+
+
+$('.feedback-text').slick({
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    asNavFor: '.image',
+    autoplay: true,
+    autoplaySpeed: 2500,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+});
