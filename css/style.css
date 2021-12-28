@@ -43,7 +43,7 @@ ol {
     width: 44px;
     height: 1px;
     position: absolute;
-    top: 14px;
+    top: 17px;
     left: 5px;
 }
 
@@ -53,7 +53,7 @@ ol {
     width: 44px;
     height: 1px;
     position: absolute;
-    top: 14px;
+    top: 17px;
     left: 75px;
 }
 
@@ -423,20 +423,14 @@ ol {
 ================ */
 
 .about-bg {
-    height: 340px;
-    margin: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
-.about-bg .about {
-    height: 340px;
-    display: flex;
-    justify-content: space-between;
-}
+.about-bg .about {}
 
 
 .about-bg .about .about-text {
-    width: 800px;
-    height: 340px;
     text-align: center;
 }
 
@@ -463,16 +457,13 @@ ol {
 
 .about-bg .about .about-text p {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 20px;
-    padding: 25px 83px 0;
+    padding: 25px 0px 0;
 }
 
-.about-bg .about .about-image {
-    width: 370px;
-    height: 340px;
-}
+.about-bg .about .about-image {}
 
 .about-bg .about .about-image img {
     width: 100%;
@@ -490,12 +481,10 @@ ol {
 
 
 .features-bg {
-    height: 655px;
     background: #f1f1f1;
 }
 
 .features-bg .features {
-    height: 655px;
     background: #f1f1f1;
 }
 
@@ -518,18 +507,16 @@ ol {
     margin-top: 25px;
 }
 
-.features-item {
-    width: 370px;
-    height: 100%;
-    float: left;
-}
-
 .features-item .media {
     text-align: left;
     padding-top: 25px;
     padding-bottom: 25px;
     position: relative;
     overflow: hidden;
+}
+
+.features-item .media a i {
+    padding-top: 5px;
 }
 
 .features-item .media a::after {
@@ -539,7 +526,7 @@ ol {
     height: 1px;
     width: 100%;
     background: #353535;
-    top: 74px;
+    top: 70px;
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
@@ -549,8 +536,7 @@ ol {
 
 
 .features-item .media:last-child a::after {
-    content: "";
-    height: 0px;
+    content: unset;
 }
 
 .features-item .media:last-child {
@@ -560,7 +546,6 @@ ol {
 .features-item .media a {
     color: #353535;
     position: relative;
-    display: block;
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
@@ -583,16 +568,9 @@ ol {
     color: #744fa0;
 }
 
-.features-item .media-icon {
-    width: 40px;
-    float: left;
-    margin-top: 5px;
-}
-
 
 .features-item .media-text {
-    width: 330px;
-    float: left;
+    padding-left: 10px;
 }
 
 .features-item h3 {
@@ -603,29 +581,20 @@ ol {
 }
 
 .features-item p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
     font-weight: 400;
+    color: #555;
 }
 
 .features-item .media-text p {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 
 
 .features-item:last-child {
     text-align: right;
-}
-
-.features-item:last-child h3 {
-    padding-top: 70px;
-    padding-bottom: 20px;
-}
-
-.features-item:last-child p {
-    line-height: 20px;
-    padding-bottom: 15px;
 }
 
 /*  ================
