@@ -16,19 +16,6 @@ ol {
     list-style: none;
 }
 
-.clr {
-    clear: both;
-}
-
-.full-wraper {
-    width: 100%;
-}
-
-.container {
-    width: 1170px;
-    margin: 0 auto;
-}
-
 .section-line {
     position: relative;
     text-align: center;
@@ -96,30 +83,9 @@ ol {
     left: 75px;
 }
 
-
-/* font-family: 'Open Sans', sans-serif;
-
-font-family: 'Raleway', sans-serif; */
-
 /*  ============= 
   Common Css Ends
 =============== */
-
-/* ===============
- Spacing Css Start
- ===============*/
-
-.m-30 {
-    margin: 0 30px;
-}
-
-.mr-30 {
-    margin-right: 30px;
-}
-
-/* ===============
- Spacing Css Ends
- ===============*/
 
 
 
@@ -145,11 +111,11 @@ font-family: 'Raleway', sans-serif; */
     top: 0;
     left: 0%;
     z-index: 999;
-    transition: all linear .5s 2.5s;
+    /* transition: all linear .5s 2.5s;
     -webkit-transition: all linear .5s 2.5s;
     -moz-transition: all linear .5s 2.5s;
     -ms-transition: all linear .5s 2.5s;
-    -o-transition: all linear .5s 2.5s;
+    -o-transition: all linear .5s 2.5s; */
 }
 
 .preloader span:last-of-type {
@@ -162,11 +128,11 @@ font-family: 'Raleway', sans-serif; */
     top: 0;
     right: 0%;
     z-index: 999;
-    transition: all linear .5s 2.5s;
+    /* transition: all linear .5s 2.5s;
     -webkit-transition: all linear .5s 2.5s;
     -moz-transition: all linear .5s 2.5s;
     -ms-transition: all linear .5s 2.5s;
-    -o-transition: all linear .5s 2.5s;
+    -o-transition: all linear .5s 2.5s; */
 }
 
 .preloader img {
@@ -193,7 +159,6 @@ font-family: 'Raleway', sans-serif; */
 ================= */
 
 .menu-bg {
-    height: 80px;
     position: absolute;
     top: 0;
     left: 0;
@@ -207,7 +172,6 @@ font-family: 'Raleway', sans-serif; */
 }
 
 .menu-bg .menu {
-    height: 80px;
     transition: all linear .5s;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
@@ -216,11 +180,7 @@ font-family: 'Raleway', sans-serif; */
 }
 
 
-.menu-bg .menu .logo {
-    width: 230px;
-    height: 80px;
-    float: left;
-}
+.menu-bg .menu .logo {}
 
 .menu-bg .menu .logo a {
     line-height: 80px;
@@ -230,11 +190,7 @@ font-family: 'Raleway', sans-serif; */
     width: 100%;
 }
 
-.menu-bg .menu .menu-list {
-    width: 570px;
-    height: 80px;
-    float: right;
-}
+.menu-bg .menu .menu-list {}
 
 .menu-bg .menu .menu-list .menu-bar {
     width: 450px;
@@ -345,10 +301,11 @@ font-family: 'Raleway', sans-serif; */
 ================ */
 
 .banner-bg {
-    height: 700px;
     background: url(../images/banner.jpg) no-repeat center / cover;
     position: relative;
     z-index: 1;
+    padding-top: 245px;
+    padding-bottom: 135px;
 }
 
 .banner-bg::after {
@@ -362,9 +319,7 @@ font-family: 'Raleway', sans-serif; */
     z-index: -1;
 }
 
-.banner-bg .banner {
-    height: 700px;
-}
+.banner-bg .banner {}
 
 .banner-bg .banner .banner-text {
     text-align: right;
@@ -376,7 +331,6 @@ font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     font-size: 56px;
     font-weight: 700;
-    padding-top: 220px;
 }
 
 .banner-bg .banner .banner-text h3 {
@@ -405,19 +359,17 @@ font-family: 'Raleway', sans-serif; */
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    padding: 0px 0px 55px 690px;
+    margin-bottom: 60px !important;
     text-align: right;
 }
 
 .banner-bg .banner .banner-button {
     text-align: right;
+    padding-left: 80px;
 }
 
 .banner-bg .banner .banner-button a {
-    width: 190px;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 10px 0px 10px 55px;
+    padding: 0px 0px 5px 55px;
     background: #fff;
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
@@ -426,7 +378,7 @@ font-family: 'Raleway', sans-serif; */
     color: #353535;
     text-align: left;
     position: relative;
-    margin-left: 5px;
+    margin-left: 10px;
     border-radius: 5px;
     transition: all linear .2s;
     -webkit-border-radius: 5px;
@@ -447,7 +399,7 @@ font-family: 'Raleway', sans-serif; */
 .banner-bg .banner .banner-button a i {
     position: absolute;
     left: 15px;
-    top: 14px;
+    top: 13px;
     font-size: 33px;
 }
 

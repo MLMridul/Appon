@@ -1,7 +1,7 @@
 // Preloader
 
 $(window).on("load", function () {
-    $('.preloader img').delay(2000).fadeOut();
+    $('.preloader img').delay(200).fadeOut();
     $('.preloader span:first-of-type').css({
         'left': '-50%'
     })
