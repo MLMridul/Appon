@@ -180,8 +180,6 @@ ol {
 }
 
 
-.menu-bg .menu .logo {}
-
 .menu-bg .menu .logo a {
     line-height: 80px;
 }
@@ -189,8 +187,6 @@ ol {
 .menu-bg .menu .logo a img {
     width: 100%;
 }
-
-.menu-bg .menu .menu-list {}
 
 .menu-bg .menu .menu-list .menu-bar {
     width: 450px;
@@ -319,8 +315,6 @@ ol {
     z-index: -1;
 }
 
-.banner-bg .banner {}
-
 .banner-bg .banner .banner-text {
     text-align: right;
     color: #fff;
@@ -365,11 +359,10 @@ ol {
 
 .banner-bg .banner .banner-button {
     text-align: right;
-    padding-left: 80px;
 }
 
 .banner-bg .banner .banner-button a {
-    padding: 0px 0px 5px 55px;
+    padding: 5px 20px 5px 55px;
     background: #fff;
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
@@ -408,6 +401,7 @@ ol {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    display: block;
 }
 
 
@@ -426,8 +420,6 @@ ol {
     margin-top: 100px;
     margin-bottom: 60px;
 }
-
-.about-bg .about {}
 
 
 .about-bg .about .about-text {
@@ -463,8 +455,6 @@ ol {
     padding: 25px 0px 0;
 }
 
-.about-bg .about .about-image {}
-
 .about-bg .about .about-image img {
     width: 100%;
 }
@@ -482,6 +472,8 @@ ol {
 
 .features-bg {
     background: #f1f1f1;
+    padding-top: 55px;
+    padding-bottom: 35px;
 }
 
 .features-bg .features {
@@ -495,7 +487,6 @@ ol {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    padding-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -609,12 +600,10 @@ ol {
 ==================== */
 
 .screenshot-bg {
-    height: 535px;
     margin: 100px 0;
 }
 
 .screenshot-bg .screenshot {
-    height: 535px;
     text-align: center;
 }
 
@@ -647,9 +636,9 @@ ol {
     display: flex;
     position: absolute;
     left: 50%;
-    bottom: -30px;
+    bottom: -60px;
     transform: translateX(-50%);
-
+    padding-left: 0;
 }
 
 
@@ -695,11 +684,6 @@ ol {
    Watch Video Css Start
 ===================== */
 
-.video-bg {
-    height: 615px;
-
-}
-
 .video-bg .video-heading {
     text-align: center;
 }
@@ -713,16 +697,17 @@ ol {
 }
 
 .video-bg .video-play {
-    height: 500px;
     background: url(../images/video-section.jpg) no-repeat center / cover;
     position: relative;
     z-index: 1;
     margin-top: 56px;
+    padding: 250px 0;
 }
 
 .video-bg .video-play::after {
     content: "";
     position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
@@ -767,12 +752,8 @@ ol {
 
 
 .pricing-bg {
-    height: 535px;
     margin: 100px 0;
-}
-
-.pricing-bg .pricing {
-    height: 535px;
+    margin-bottom: 110px !important;
 }
 
 .pricing-bg .pricing .pricing-heading {
@@ -790,9 +771,6 @@ ol {
 
 
 .pricing-bg .pricing .pricing-plan .pricing-item {
-    width: 270px;
-    height: 407px;
-    float: left;
     text-align: center;
     border: 1px solid #f1f1f1;
     box-sizing: border-box;
@@ -850,7 +828,7 @@ ol {
 }
 
 .pricing-item .price-circle {
-    border: 1px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     width: 120px;
     height: 120px;
     margin: 20px auto;
@@ -861,6 +839,10 @@ ol {
     -o-border-radius: 50%;
 }
 
+
+.pricing-bg .pricing .pricing-plan .pricing-item:hover .price-circle {
+    border-color: #744fa0;
+}
 
 .pricing-item .price-circle h4 {
     font-family: 'Raleway', sans-serif;
@@ -952,12 +934,10 @@ ol {
 ================ */
 
 .team {
-    height: 655px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .team .team-heading {
-    height: 115px;
     text-align: center;
 }
 
@@ -970,15 +950,14 @@ ol {
 }
 
 .team .team-list {
-    height: 540px;
+    padding-top: 60px;
 }
 
 .team .team-list .member {
     width: 100%;
     height: auto;
     position: relative;
-    margin-bottom: 170px;
-    float: left;
+    margin-bottom: 100px;
     padding: 0 15px;
     box-sizing: border-box;
 }
@@ -1032,7 +1011,6 @@ ol {
 }
 
 .team .team-list .member img {
-    height: 370px;
     width: 100%;
 }
 
@@ -1119,7 +1097,6 @@ ol {
 
 .team .team-list .member .member-details {
     width: 100%;
-    height: 170px;
     text-align: center;
     border: 1px solid #f1f1f1;
     border-top: none;
@@ -1129,12 +1106,12 @@ ol {
     left: 0;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    /* padding: 0 15px; */
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
+    padding: 30px 0;
 }
 
 .team .team-list .member .member-inner:hover .member-details {
@@ -1146,7 +1123,6 @@ ol {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    padding-top: 25px;
     padding-bottom: 5px;
 }
 
@@ -1177,14 +1153,9 @@ ol {
    Feedback Css Start
 =================== */
 
-
-.feedback {
-    height: 665px;
-}
-
 .feedback .feedback-heading {
     text-align: center;
-    height: 115px;
+    margin-bottom: 55px;
 }
 
 .feedback .feedback-heading h3 {
@@ -1196,10 +1167,10 @@ ol {
 }
 
 .feedback .feedback-bg {
-    height: 550px;
     background: url(../images/feedback-bg.jpg) no-repeat center / cover;
     position: relative;
     z-index: 1;
+    padding-top: 45px;
 }
 
 .feedback .feedback-bg::after {
@@ -1214,21 +1185,14 @@ ol {
 }
 
 .feedback .feedback-bg .feedback-content {
-    height: 460px;
     padding: 45px 0;
-}
-
-.feedback .feedback-bg .feedback-content .feedback-text {
-    padding: 0 195px;
-    box-sizing: border-box;
+    padding-bottom: 25px;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-text-one,
 .feedback .feedback-bg .feedback-content .feedback-text-two,
 .feedback .feedback-bg .feedback-content .feedback-text-three,
 .feedback .feedback-bg .feedback-content .feedback-text-four {
-    width: 800px;
-    height: 220px;
     margin: 0 auto;
     background: #fff;
     color: #353535;
@@ -1236,12 +1200,12 @@ ol {
     position: relative;
     border-radius: 15px;
     margin-bottom: 25px;
+    padding: 25px 65px 25px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-
 
 .feedback .feedback-bg .feedback-content .feedback-text-one::after,
 .feedback .feedback-bg .feedback-content .feedback-text-two::after,
@@ -1252,7 +1216,7 @@ ol {
     height: 38px;
     position: absolute;
     bottom: -17px;
-    left: 381px;
+    z-index: -1;
     background: #fff;
     border-radius: 5px;
     transform: rotate(45deg);
@@ -1264,6 +1228,7 @@ ol {
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
+    left: 49%;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-text p {
@@ -1272,7 +1237,6 @@ ol {
     font-weight: 400;
     line-height: 20px;
     color: #555555;
-    padding: 25px 65px 25px;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-text ul {
@@ -1321,8 +1285,6 @@ ol {
 }
 
 .feedback .feedback-bg .feedback-content .feedback-image .image {
-    width: 500px;
-    height: 170px;
     margin: 0 auto;
     padding-top: 25px;
     display: flex;
@@ -1474,9 +1436,9 @@ ol {
     display: flex;
     position: absolute;
     left: 50%;
-    bottom: -70px;
+    bottom: -45px;
     transform: translateX(-50%);
-
+    padding-left: 0;
 }
 
 
@@ -1531,13 +1493,12 @@ ol {
 
 
 .form {
-    height: 460px;
     padding: 100px 0;
 }
 
 .form .form-heading {
-    height: 115px;
     text-align: center;
+    padding-bottom: 55px;
 }
 
 .form .form-heading h3 {
@@ -1549,16 +1510,8 @@ ol {
 }
 
 .form .form-input {
-    height: 50px;
     margin-bottom: 30px;
-    display: flex;
     justify-content: space-between;
-}
-
-.form .form-input .form-item {
-    width: 370px;
-    height: 100%;
-    float: left;
 }
 
 .form .form-input .form-item input {
@@ -1579,14 +1532,13 @@ ol {
 
 .form .form-messege {
     width: 100%;
-    height: 200px;
     margin-bottom: 30px;
 }
 
 
 .form .form-messege textarea {
     width: 100%;
-    height: 100%;
+    height: 200px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -1602,14 +1554,13 @@ ol {
 }
 
 .form .form-button {
-    height: 35px;
     text-align: center;
 }
 
 
 .form .form-button button {
     padding: 0 20px;
-    line-height: 33px;
+    line-height: 30px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -1634,7 +1585,6 @@ ol {
 .form .form-button button:hover {
     background: transparent;
     color: #744fa0;
-    /* border-color: ; */
 }
 
 
@@ -1648,18 +1598,12 @@ ol {
 ================ */
 
 .footer-bg {
-    height: 255px;
     background: #353535;
+    padding: 30px 0;
 }
 
 .footer-bg .footer {
-    height: 255px;
     text-align: center;
-}
-
-.footer-bg .footer .footer-logo {
-    height: 75px;
-    padding-top: 30px;
 }
 
 .footer-bg .footer .footer-logo img {
@@ -1667,14 +1611,13 @@ ol {
 }
 
 .footer-bg .footer .footer-icon {
-    height: 50px;
-    width: 290px;
     margin: 0 auto;
     padding-top: 30px;
 }
 
 .footer-bg .footer .footer-icon ul {
     display: flex;
+    justify-content: center;
 }
 
 .footer-bg .footer .footer-icon ul li {
@@ -1722,7 +1665,6 @@ ol {
 }
 
 .footer-bg .footer .footer-text {
-    height: 70px;
     color: #fff;
 }
 

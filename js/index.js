@@ -77,7 +77,7 @@ $('.image').slick({
     asNavFor: '.feedback-text',
     focusOnSelect: true,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2500000,
     pauseOnFocus: false,
     pauseOnHover: false,
 });
@@ -92,7 +92,7 @@ $('.feedback-text').slick({
     fade: true,
     asNavFor: '.image',
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2500000,
     pauseOnFocus: false,
     pauseOnHover: false,
 });
