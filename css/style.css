@@ -316,7 +316,6 @@ ol {
 }
 
 .banner-bg .banner .banner-text {
-    text-align: right;
     color: #fff;
 }
 
@@ -354,7 +353,6 @@ ol {
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 60px !important;
-    text-align: right;
 }
 
 .banner-bg .banner .banner-button {
@@ -1139,7 +1137,7 @@ ol {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    padding: 0 61px;
+    padding: 0 12%;
 }
 
 
@@ -1186,7 +1184,7 @@ ol {
 
 .feedback .feedback-bg .feedback-content {
     padding: 45px 0;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
 .feedback .feedback-bg .feedback-content .feedback-text-one,
@@ -1280,9 +1278,7 @@ ol {
     font-weight: 400;
 }
 
-.feedback .feedback-bg .feedback-content .feedback-image {
-    height: 240px;
-}
+.feedback .feedback-bg .feedback-content .feedback-image {}
 
 .feedback .feedback-bg .feedback-content .feedback-image .image {
     margin: 0 auto;

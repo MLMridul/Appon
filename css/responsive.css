@@ -1,0 +1,157 @@
+:root {}
+
+/* =======================
+  Common Media Css Starts
+======================= */
+
+@media(max-width:991px) {}
+
+
+/* ====================
+  Common Media Css Ends
+=================== */
+
+/* ==========================
+   Extra Small Device Starts
+=========================== */
+
+
+
+@media(max-width:575px) {
+
+    .feedback .feedback-bg .feedback-content .feedback-text-one,
+    .feedback .feedback-bg .feedback-content .feedback-text-two,
+    .feedback .feedback-bg .feedback-content .feedback-text-three,
+    .feedback .feedback-bg .feedback-content .feedback-text-four {
+        padding: 25px 40px 25px;
+    }
+
+    .banner-bg {
+        padding-bottom: 100px;
+    }
+
+    .banner-bg .banner .banner-button {
+        flex-direction: column;
+    }
+
+    .banner-bg .banner .banner-button a {
+        margin-bottom: 20px;
+    }
+
+    .features-item:last-child {
+        text-align: left;
+    }
+
+    .pricing-bg {
+        margin: 70px 0;
+    }
+
+    .feedback .feedback-bg .feedback-content .feedback-text-one::after,
+    .feedback .feedback-bg .feedback-content .feedback-text-two::after,
+    .feedback .feedback-bg .feedback-content .feedback-text-three::after,
+    .feedback .feedback-bg .feedback-content .feedback-text-four::after {
+        left: 45%;
+    }
+
+    .banner-bg .banner .banner-text h3 {
+        font-size: 24px;
+    }
+
+    .banner-bg .banner .banner-text h3::after {
+        right: unset;
+        left: 0;
+    }
+
+    .feedback .feedback-bg {
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width:550px) {}
+
+
+
+/* ==========================
+   Extra Small Device Ends
+=========================== */
+
+
+/* =====================
+    Small Device Starts
+==================== */
+
+@media (min-width:576px) and (max-width:767px) {
+    .banner-bg .banner .banner-text h3::after {
+        right: unset;
+        left: 0;
+    }
+
+    .about-bg {
+        margin-top: 80px;
+    }
+
+    .feedback .feedback-bg .feedback-content .feedback-text-one,
+    .feedback .feedback-bg .feedback-content .feedback-text-two,
+    .feedback .feedback-bg .feedback-content .feedback-text-three,
+    .feedback .feedback-bg .feedback-content .feedback-text-four {
+        padding: 25px 40px 25px;
+    }
+}
+
+
+/* ====================
+    Small Device Ends
+=================== */
+
+
+/* =====================
+    Medium Device Starts
+==================== */
+
+@media (min-width:555px) and (max-width:991px) {
+    .features-item:last-child {
+        text-align: left;
+    }
+
+    .video-bg .video-play {
+        padding: 225px 0;
+    }
+
+    .feedback .feedback-bg {
+        padding-bottom: 50px;
+    }
+
+    .features-item p {
+        text-align: justify;
+    }
+
+    .form {
+        padding: 80px 0;
+    }
+}
+
+/* ====================
+    Medium Device Ends
+=================== */
+
+
+/* =====================
+    Large Device Starts
+==================== */
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* ====================
+    Large Device Ends
+=================== */
+
+
+/* ==========================
+    Extra Large Device Starts
+========================= */
+
+@media (min-width:1200px) {}
+
+/* =========================
+    Extra Large Device Ends
+========================= */
