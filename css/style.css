@@ -157,54 +157,36 @@ ol {
 /*  ================
   Menu Bar Css Start
 ================= */
+/* ====================
+    Menu Css Starts
+==================== */
 
-.menu-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 60px;
-    z-index: 9999;
-    transition: all linear .5s;
-    -webkit-transition: all linear .5s;
-    -moz-transition: all linear .5s;
-    -ms-transition: all linear .5s;
-    -o-transition: all linear .5s;
-}
-
-.menu-bg .menu {
-    transition: all linear .5s;
-    -webkit-transition: all linear .5s;
-    -moz-transition: all linear .5s;
-    -ms-transition: all linear .5s;
-    -o-transition: all linear .5s;
-}
-
-
-.menu-bg .menu .logo a {
-    line-height: 80px;
-}
-
-.menu-bg .menu .logo a img {
+header {
     width: 100%;
+    position: absolute;
+    z-index: 99999;
+    top: 30px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
-.menu-bg .menu .menu-list .menu-bar {
-    width: 450px;
-    height: 80px;
-    float: left;
+
+
+
+header .menu .logo {
+    line-height: 80px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
-.menu-bg .menu .menu-list .menu-bar ul {
-    float: left;
-}
 
-.menu-bg .menu .menu-list .menu-bar ul li {
-    float: left;
-    overflow: hidden;
-}
-
-.menu-bg .menu .menu-list .menu-bar ul li a {
-    text-transform: capitalize;
+header .menu .menu-list a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -219,72 +201,108 @@ ol {
     -o-transition: all linear .2s;
 }
 
-.menu-bg .menu .menu-list .menu-bar ul li a::after {
-    content: "";
-    position: absolute;
-    top: 30px;
-    left: -100%;
-    width: 15px;
-    height: 2px;
-    background: #744fa0;
-    display: inline-block;
-    transition: all linear .2s;
-    -webkit-transition: all linear .2s;
-    -moz-transition: all linear .2s;
-    -ms-transition: all linear .2s;
-    -o-transition: all linear .2s;
+header .menu .menu-list a:last-child {
+    margin-right: 30px;
 }
 
-
-.menu-bg .menu .menu-list .menu-bar ul li a:hover {
+header .menu .menu-list a:hover {
     color: #744fa0;
 }
 
-.menu-bg .menu .menu-list .menu-bar ul li a:hover:after {
-    left: 0;
-}
-
-
-.menu-bg .menu .menu-list .free-trial {
-    width: 120px;
-    height: 80px;
-    float: left;
-}
-
-.menu-bg .menu .menu-list .free-trial a {
-    padding: 10px 21px;
-    line-height: 80px;
-    text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
+header .menu .menu-list a::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 1px;
+    width: 0px;
+    height: 2px;
     background: #744fa0;
-    border-radius: 5px;
-    box-sizing: border-box;
-    border: 1px solid #744fa0;
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
+
 }
 
-.menu-bg .menu .menu-list .free-trial a:hover {
+header .menu .menu-list a:hover::after {
+    width: 15px;
+}
+
+header .menu .free-trial {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 20px;
+    border: 1px solid #744fa0;
+    border-radius: 4px;
+    background: #744fa0;
+    color: #fff;
+    transition: all linear .4s;
+}
+
+header .menu .free-trial:hover {
     background: #fff;
     color: #744fa0;
     border-color: #fff;
 }
 
+header .menu .small-menu {
+    margin: 0 18px;
+    border: 1px solid #a6a6a6;
+    color: #fff;
+    padding: 7px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all linear .4s;
+}
+
+header .menu .small-menu:hover {
+    background: var(--col1);
+    border-color: var(--col1);
+}
+
+header .menu .social-icon {
+    position: relative;
+    padding-left: 7px;
+}
+
+header .menu .social-icon::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 1px;
+    height: 30px;
+    background: #3b3941;
+}
+
+
+header .menu .social-icon a {
+    color: #fff;
+    margin-left: 18px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+header .menu .social-icon a:hover {
+    color: var(--col1);
+}
+
+
 .bg {
     position: fixed;
     background: rgba(0, 0, 0, 0.7);
     margin: 0;
-    height: 90px;
+    top: 0;
 }
 
-.bg .menu {
-    margin-top: 5px;
+.bg .menu-list {
+    top: 75px !important;
 }
 
 /*  ===============
@@ -1169,6 +1187,7 @@ ol {
     position: relative;
     z-index: 1;
     padding-top: 45px;
+    padding-bottom: 80px;
 }
 
 .feedback .feedback-bg::after {

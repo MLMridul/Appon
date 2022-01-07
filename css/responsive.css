@@ -1,5 +1,3 @@
-:root {}
-
 /* =======================
   Common Media Css Starts
 ======================= */
@@ -17,18 +15,7 @@
 
 
 
-@media(max-width:575px) {
-
-    .feedback .feedback-bg .feedback-content .feedback-text-one,
-    .feedback .feedback-bg .feedback-content .feedback-text-two,
-    .feedback .feedback-bg .feedback-content .feedback-text-three,
-    .feedback .feedback-bg .feedback-content .feedback-text-four {
-        padding: 25px 40px 25px;
-    }
-
-    .banner-bg {
-        padding-bottom: 100px;
-    }
+@media(max-width:410px) {
 
     .banner-bg .banner .banner-button {
         flex-direction: column;
@@ -38,19 +25,69 @@
         margin-bottom: 20px;
     }
 
-    .features-item:last-child {
-        text-align: left;
+    /*  Banner Ends */
+}
+
+@media(max-width:575px) {
+    header .logo {
+        line-height: 60px !important;
     }
 
-    .pricing-bg {
-        margin: 70px 0;
+    header .menu-list {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 5px 0;
+        background: rgba(0, 0, 0, 0.7);
+        border-top: 1px solid #a6a6a6;
+        border-bottom: 1px solid #a6a6a6;
+        visibility: hidden;
+        transition: all linear .4s;
+        opacity: 0;
     }
 
-    .feedback .feedback-bg .feedback-content .feedback-text-one::after,
-    .feedback .feedback-bg .feedback-content .feedback-text-two::after,
-    .feedback .feedback-bg .feedback-content .feedback-text-three::after,
-    .feedback .feedback-bg .feedback-content .feedback-text-four::after {
-        left: 45%;
+    header .menu .menu-list a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 3px;
+        line-height: unset;
+        background: #744fa0;
+    }
+
+    header .menu .menu-list a:hover {
+        background: #fff;
+        color: #744fa0;
+    }
+
+    header .menu .menu-list a:hover:after {
+        width: 100%;
+        left: 0px;
+        top: unset;
+        bottom: 0;
+    }
+
+    .add {
+        visibility: visible !important;
+        top: 80px !important;
+        opacity: 1 !important;
+    }
+
+    header .menu .menu-list a:last-child {
+        margin-right: 5px;
+    }
+
+    /* Menu Bar Ends */
+
+    .banner-bg {
+        padding-bottom: 100px;
+    }
+
+    .banner-bg .banner .banner-button a {
+        margin-right: 10px;
+        margin-left: 0;
     }
 
     .banner-bg .banner .banner-text h3 {
@@ -62,9 +99,43 @@
         left: 0;
     }
 
+    /* Banner Ends */
+
+
+
+    .features-item:last-child {
+        text-align: left;
+    }
+
+    /* Features Ends */
+
+    .pricing-bg {
+        margin: 70px 0;
+    }
+
+    /* Pricing Plan Ends */
+
+    .feedback .feedback-bg .feedback-content .feedback-text-one,
+    .feedback .feedback-bg .feedback-content .feedback-text-two,
+    .feedback .feedback-bg .feedback-content .feedback-text-three,
+    .feedback .feedback-bg .feedback-content .feedback-text-four {
+        padding: 25px 40px 25px;
+    }
+
+    .feedback .feedback-bg .feedback-content .feedback-text-one::after,
+    .feedback .feedback-bg .feedback-content .feedback-text-two::after,
+    .feedback .feedback-bg .feedback-content .feedback-text-three::after,
+    .feedback .feedback-bg .feedback-content .feedback-text-four::after {
+        left: 45%;
+    }
+
+
     .feedback .feedback-bg {
         padding-bottom: 80px;
     }
+
+    /*  Feedback Ends */
+
 }
 
 @media(max-width:550px) {}
@@ -81,14 +152,62 @@
 ==================== */
 
 @media (min-width:576px) and (max-width:767px) {
+    header .logo {
+        line-height: 60px !important;
+    }
+
+    header .menu-list {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 5px 0;
+        background: rgba(0, 0, 0, 0.7);
+        border-top: 1px solid #a6a6a6;
+        border-bottom: 1px solid #a6a6a6;
+        visibility: hidden;
+        transition: all linear .4s;
+        opacity: 0;
+    }
+
+    header .menu .menu-list a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+
+    header .menu .menu-list a:hover {
+        background: var(--col1);
+        color: #fff;
+    }
+
+    .add {
+        visibility: visible !important;
+        top: 80px !important;
+        opacity: 1 !important;
+    }
+
+    /* Menu Bar Ends */
+
     .banner-bg .banner .banner-text h3::after {
         right: unset;
         left: 0;
     }
 
+    .banner-bg .banner .banner-button a {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    /* Banner Ends */
+
     .about-bg {
         margin-top: 80px;
     }
+
+    /* About Ends */
 
     .feedback .feedback-bg .feedback-content .feedback-text-one,
     .feedback .feedback-bg .feedback-content .feedback-text-two,
@@ -96,6 +215,9 @@
     .feedback .feedback-bg .feedback-content .feedback-text-four {
         padding: 25px 40px 25px;
     }
+
+    /*  Feedback Ends */
+
 }
 
 
@@ -109,25 +231,83 @@
 ==================== */
 
 @media (min-width:555px) and (max-width:991px) {
+    header .logo {
+        line-height: 60px !important;
+    }
+
+    header .menu-list {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 5px 0;
+        background: rgba(0, 0, 0, 0.7);
+        border-top: 1px solid #a6a6a6;
+        border-bottom: 1px solid #a6a6a6;
+        visibility: hidden;
+        transition: all linear .4s;
+        opacity: 0;
+    }
+
+    header .menu .menu-list a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 3px;
+        line-height: unset;
+        background: #744fa0;
+    }
+
+    header .menu .menu-list a:hover {
+        background: #fff;
+        color: #744fa0;
+    }
+
+    header .menu .menu-list a:hover:after {
+        width: 100%;
+        left: 0px;
+        top: unset;
+        bottom: 0;
+    }
+
+    .add {
+        visibility: visible !important;
+        top: 80px !important;
+        opacity: 1 !important;
+    }
+
+
+    header .menu .menu-list a:last-child {
+        margin-right: 5px;
+    }
+
+    /* Menu Bar Ends */
+
     .features-item:last-child {
         text-align: left;
     }
+
+    /* Features Ends */
 
     .video-bg .video-play {
         padding: 225px 0;
     }
 
-    .feedback .feedback-bg {
-        padding-bottom: 50px;
-    }
+    /* Watch Video Ends */
 
     .features-item p {
         text-align: justify;
     }
 
+    /* Features Ends */
+
     .form {
         padding: 80px 0;
     }
+
+    /* Get in Touch Ends */
+
 }
 
 /* ====================
