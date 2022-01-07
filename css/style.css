@@ -111,11 +111,11 @@ ol {
     top: 0;
     left: 0%;
     z-index: 999;
-    /* transition: all linear .5s 2.5s;
+    transition: all linear .5s 2.5s;
     -webkit-transition: all linear .5s 2.5s;
     -moz-transition: all linear .5s 2.5s;
     -ms-transition: all linear .5s 2.5s;
-    -o-transition: all linear .5s 2.5s; */
+    -o-transition: all linear .5s 2.5s;
 }
 
 .preloader span:last-of-type {
@@ -128,11 +128,11 @@ ol {
     top: 0;
     right: 0%;
     z-index: 999;
-    /* transition: all linear .5s 2.5s;
+    transition: all linear .5s 2.5s;
     -webkit-transition: all linear .5s 2.5s;
     -moz-transition: all linear .5s 2.5s;
     -ms-transition: all linear .5s 2.5s;
-    -o-transition: all linear .5s 2.5s; */
+    -o-transition: all linear .5s 2.5s;
 }
 
 .preloader img {
